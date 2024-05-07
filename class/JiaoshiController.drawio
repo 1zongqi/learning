@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" modified="2024-04-28T08:46:37.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.0" etag="Z079SNVKMLFJwZgRH6KZ" type="device">
+  <diagram id="v0ITukVP-cMpAGlcsRk-" name="第 1 页">
+    <mxGraphModel dx="1621" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TeacherController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- tokenService: TokenService&lt;br&gt;- teacherService: teacherService&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ update(teacherEntity, HttpServletRequest): R&lt;br&gt;+ list(Map&amp;lt;String, Object&amp;gt;, teacherEntity, HttpServletRequest): R&lt;br&gt;+ detail(Long): R&lt;br&gt;+ remindCount(String, HttpServletRequest, String, Map&amp;lt;String, Object&amp;gt;): R&lt;br&gt;+ register(teacherEntity): R&lt;br&gt;+ save(teacherEntity, HttpServletRequest): R&lt;br&gt;+ query(teacherEntity): R&lt;br&gt;+ add(teacherEntity, HttpServletRequest): R&lt;br&gt;+ login(String, String, String, HttpServletRequest): R&lt;br&gt;+ info(Long): R&lt;br&gt;+ list(teacherEntity): R&lt;br&gt;+ getCurrUser(HttpServletRequest): R&lt;br&gt;+ resetPass(String, HttpServletRequest): R&lt;br&gt;+ logout(HttpServletRequest): R&lt;br&gt;+ delete(Long[]): R&lt;br&gt;+ page(Map&amp;lt;String, Object&amp;gt;, teacherEntity, HttpServletRequest): R&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-81" y="300" width="444" height="472" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
