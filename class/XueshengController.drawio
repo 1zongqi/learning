@@ -1,0 +1,25 @@
+<mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" background="none" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="node1" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;annotation&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;RequestMapping&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ path(): String[]&lt;br/&gt;+ params(): String[]&lt;br/&gt;+ name(): String&lt;br/&gt;+ consumes(): String[]&lt;br/&gt;+ headers(): String[]&lt;br/&gt;+ produces(): String[]&lt;br/&gt;+ value(): String[]&lt;br/&gt;+ method(): RequestMethod[]&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="143" y="-14" width="218" height="231" as="geometry" />
+    </mxCell>
+    <mxCell id="node2" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;annotation&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;RestController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ value(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-82" y="149" width="164" height="79" as="geometry" />
+    </mxCell>
+    <mxCell id="node0" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;XueshengController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- xueshengService: XueshengService&lt;br/&gt;- tokenService: TokenService&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ info(Long): R&lt;br/&gt;+ resetPass(String, HttpServletRequest): R&lt;br/&gt;+ add(XueshengEntity, HttpServletRequest): R&lt;br/&gt;+ detail(Long): R&lt;br/&gt;+ getCurrUser(HttpServletRequest): R&lt;br/&gt;+ query(XueshengEntity): R&lt;br/&gt;+ register(XueshengEntity): R&lt;br/&gt;+ save(XueshengEntity, HttpServletRequest): R&lt;br/&gt;+ logout(HttpServletRequest): R&lt;br/&gt;+ delete(Long[]): R&lt;br/&gt;+ login(String, String, String, HttpServletRequest): R&lt;br/&gt;+ page(Map&amp;lt;String, Object&amp;gt;, XueshengEntity, HttpServletRequest): R&lt;br/&gt;+ list(Map&amp;lt;String, Object&amp;gt;, XueshengEntity, HttpServletRequest): R&lt;br/&gt;+ remindCount(String, HttpServletRequest, String, Map&amp;lt;String, Object&amp;gt;): R&lt;br/&gt;+ list(XueshengEntity): R&lt;br/&gt;+ update(XueshengEntity, HttpServletRequest): R&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-102" y="299" width="452" height="472" as="geometry" />
+    </mxCell>
+    <mxCell id="edge1" edge="1" value="" parent="1" source="node0" target="node1" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;dashPattern=1 1;startArrow=none;endArrow=none;strokeColor=#999900;exitX=0.783;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge0" edge="1" value="" parent="1" source="node0" target="node2" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;dashPattern=1 1;startArrow=none;endArrow=none;strokeColor=#999900;exitX=0.225;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.001;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points" />
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>
